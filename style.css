@@ -1,0 +1,321 @@
+*
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.highlight
+{
+    color: rgb(9, 189, 9);
+}
+
+.button-main
+{
+    background-color: rgb(9, 189, 9);
+    /* border: 3px black; */
+    padding:10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+input
+{
+    height: 2rem;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(255, 0, 0, 0.575);
+}
+
+.brand-name
+{
+    padding-left:5rem;
+}
+
+.list
+{
+    padding-top: 0.8rem;
+}
+
+.list li 
+{
+    display: inline;
+    margin:0;
+    padding: 0;
+    padding-right: 2rem;
+    font-weight: 600;
+}
+
+.list li a
+{
+    font-size: 1.2rem;
+}
+
+
+/* ShowcaseArea */
+.showcase
+{
+    background-image:url(./images/showcase.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -1.4rem;
+    /* background-position-y: -9rem;
+    background-position-x: -7rem; */
+    min-height: 40rem;
+    text-align: center;
+}
+
+.showcase p
+{
+    margin:0;
+    padding:0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.lower-text
+{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-around;
+}
+
+.lower-text p
+{
+    font-size: 2rem;
+    padding:0;
+    margin:0;
+}
+
+.quote
+{
+    text-align: center;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    padding-bottom: 5rem;
+}
+
+.quote h1
+{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.quote p
+{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.content
+{
+    padding-bottom: 5rem;
+}
+.content h1
+{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration:underline ;
+}
+
+.content .row1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content .row1 .box
+{
+    border: black 1px solid;
+    text-align: center;
+    margin:0.5rem;
+}
+
+.content .row1 .box img
+{
+    height: 9rem;
+}
+
+.contact
+{
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    min-height: 20rem;
+    margin:0;
+    padding-bottom: 2rem;
+}
+.contact h1
+{
+    font-size: 3rem;
+}
+.contact p
+{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.contact input
+{
+    margin:1rem;
+}
+.contact li
+{
+    display: inline;
+    padding-right: 1rem;
+}
+.contact li
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer
+{
+    text-align: center;
+    background-color: brown;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+footer h1
+{
+    margin: 0;
+}
+footer p
+{
+    margin: 0;
+}
+footer p a
+{
+    font-weight: bold;
+}
+
+.subscribe
+{
+    margin-top:-1rem;
+    padding: 0;
+}
+
+@media(max-width:768px)
+{
+    .navbar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+    }
+
+    .brand-name
+    {
+        font-size: 1.5rem;
+        margin-top: 0.6rem;
+        padding-left: 0;
+    }
+
+    .brand-name h1
+    {
+        padding:0;
+        margin:0;
+    }
+
+    .showcase .upper-text
+    {
+        font-size: 2rem !important;
+        margin:0;
+    }
+
+    .list
+    {
+        padding-left:0rem;
+    }
+    .list li
+    {
+        padding-right: 1.2rem;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .list li a
+    {
+        font-size: 1.2rem;
+    }
+
+    .list
+    {
+        padding-top:0;
+        margin-top: 0;
+    }
+
+    .lower-text
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20rem;
+        color:rgba(143, 11, 31, 0.993);
+    }
+
+    .showcase .upper-text
+    {
+        font-size: 1rem;
+    }
+
+    .content .row1
+    {
+        flex-direction: column;
+    }
+
+    .content .row1 .box
+    {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subscribe
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    input
+    {
+        border-radius: 5px;
+        margin:0;
+    }
+
+    .button-main
+    {
+        margin:0;
+    }
+
+    body
+    {
+        margin:0;
+        padding:0;
+    }
+}
